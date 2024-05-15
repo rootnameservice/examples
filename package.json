@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./"
   },
   "keywords": [],
   "author": "SmoothBot",
   "license": "ISC",
   "dependencies": {
-    "@ensdomains/ensjs": "^3.6.0",
+    "@ensdomains/ensjs": "3.7",
     "ethers": "^5.7.2",
     "hardhat": "^2.22.3",
-    "rootnameservice": "^0.0.4",
+    "rootnameservice": "^0.0.6",
     "viem": "^2.9.25"
   }
 }
