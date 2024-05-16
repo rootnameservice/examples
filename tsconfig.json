@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-      "target": "ES5",
-      "module": "CommonJS",
+      "target": "es2020",
+      "module": "es2020",
       "outDir": "./dist",
       "rootDir": "./src",
-      "downlevelIteration": true,
-      "strict": true,
       "esModuleInterop": true,
-      "resolveJsonModule": true,
       "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true
-  },
+      "lib": [ "es2020" ],
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "types": [ "node" ],
+      "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+      "strict": true /* Enable all strict type-checking options. */,  
+  }
 }

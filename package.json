@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --project ./"
@@ -16,5 +17,10 @@
     "hardhat": "^2.22.3",
     "rootnameservice": "^0.0.6",
     "viem": "^2.9.25"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }
